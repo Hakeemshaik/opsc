@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189143199072",
+    "project_id": "opsc-firebase-f5450",
+    "storage_bucket": "opsc-firebase-f5450.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189143199072:android:23e8e8561ea3384331c205",
+        "android_client_info": {
+          "package_name": "com.example.part2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9qSHydQ26uOP1jEjo35d1hpaT3sbmll4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

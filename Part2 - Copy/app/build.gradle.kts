@@ -5,6 +5,9 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.android.application")
+    id("com.google.gms.google-services")
+
 }
 
 android {
@@ -72,4 +75,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
     implementation ("com.github.rezzza:compose-charts:0.1.0") // for Compose support
+
+    //firebase dependencies
+    implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
+
 }
